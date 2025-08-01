@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC PLAYER</title>
+    <link rel="stylesheet" href="song.css">
+</head>
+
+<body>
+    <div id="heading">
+        <div id="main-title">
+            <h1>MUSIC &nbsp; PLAYER</h1>
+        </div>
+        <div id="toggle">
+            <div class="theme-toggle-wrapper">
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-checkbox" onchange="toggleTheme()">
+                    <span class="slider round"></span>
+                </label>
+                <span id="theme-label">Dark</span>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <div id="container">
+
+        <div id="all-song" class="container1">
+            <label>Filter by Genre : </label>
+            <select id="genreselect">
+                <option value="All">All</option>
+                <option value="Rock">Rock</option>
+                <option value="Pop">Pop</option>
+                <option value="Hip-hop">Hip-hop</option>
+            </select>
+            <h2>All Songs</h2>
+            <div id="songlist">
+                <!-- <p class="songlistpara">runaway</p> -->
+            </div>
+        </div>
+
+
+        <div id="card" class="container2">
+            <div id="song-card"></div>
+            <div id="song-player"></div>
+            <div id="prev-next-button">
+                <button id="prev"><=</button>
+                        <button id="next">=></button>
+            </div>
+            <div id="add-playlist-btn">
+                <button id="addplaylist">Add to Playlist</button>
+            </div>
+        </div>
+
+        <div id="playlist" class="container3">
+            <div id="playlist-name">
+                <input type="text" placeholder="Enter playlist name" id="play-name">
+                <button id="create-playlist">Create Playlist</button>
+            </div>
+
+            <div id="display">
+                <h3>Current Playlist</h3>
+                <div id="current-playlist"></div>
+
+                <h3>All Playlist</h3>
+                <div id="all-playlist"></div>
+            </div>
+        </div>
+    </div>
+    <script src="song.js"></script>
+</body>
+
+</html>
