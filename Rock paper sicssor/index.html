@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "container">
+        <h1>Rock Paper Scissor</h1>
+        <div class ="btn">
+            <!-- Create all three playing buttons here -->
+            <button onclick="Play('rock')" class="btn1">
+                <img src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/1024px/270a.png">
+            </button>
+            <button onclick="Play('paper')" class="btn1">
+                <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/270b.png">
+            </button>
+            <button onclick="Play('scissors')" class="btn1">
+                <img src="https://images.emojiterra.com/google/android-11/512px/270c.png">
+            </button>
+
+        </div>
+        <p id="scr" class="a">
+            <!-- Show the scores here -->
+             Your Score: 0 | Computer Score: 0
+        </p>
+        <p id="res" class="a">You choosed : null | Computer chooses : null</p>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
