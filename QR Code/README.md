@@ -1,5 +1,5 @@
 # Frontend Mentor - QR code component
-
+Live link : https://qr-code-iota-nine-95.vercel.app/
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
 ## Welcome! 👋
