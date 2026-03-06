@@ -1,0 +1,97 @@
+body, .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 208, 214);
+}
+.recipe-main {
+  width: 40%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 25px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.recipe-main img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.recipe-time{
+    background-color: rgb(248, 231, 234);
+    padding: 20px;
+    border-radius: 20px;
+}
+.recipe-time h3{
+    margin-top: 0px;
+    color: rgb(125, 55, 66);
+}
+.recipe-time-list li{
+    padding-left: 10px;
+    margin: 10px 0px 0px 0px;
+    color: rgb(41, 40, 40);
+
+}
+.recipe-time-list li::marker{
+    color: rgb(125, 55, 66);
+}
+
+
+.recipe-ingredients h2{
+    color: rgb(125, 55, 66);
+}
+.recipe-ingredients-list li{
+    margin: 10px 0px 0px 0px;
+    color: rgb(41, 40, 40);
+}
+.recipe-ingredients-list li::marker{
+    color: rgb(125, 55, 66);
+}
+
+.recipe-instructions h2{
+    color: rgb(125, 55, 66);
+}
+
+.recipe-instructions-list li{
+    margin: 10px 0px 0px 0px;
+    color: rgb(41, 40, 40);
+}
+
+.recipe-instructions-list li::marker{
+    color: rgb(125, 55, 66);
+    font-weight: bold;
+
+}
+
+.recipe-nutrition h2{
+    color: rgb(125, 55, 66);
+}
+
+.recipe-nutrition p{
+    color: rgb(41, 40, 40);
+}
+
+.recipe-nutrition-table{
+    
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+}
+
+.recipe-nutrition-table th{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid rgb(125, 55, 66);
+    color: rgb(41, 40, 40);
+}
+
+.recipe-nutrition-table td{
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(125, 55, 66);
+    border-bottom: 1px solid rgb(125, 55, 66);
+}
