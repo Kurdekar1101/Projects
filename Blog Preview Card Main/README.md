@@ -1,5 +1,5 @@
 # Frontend Mentor - Blog preview card
-
+LINK : https://blogpreviewcard-phi.vercel.app/
 ![Design preview for the Blog preview card coding challenge](./preview.jpg)
 
 ## Welcome! 👋
