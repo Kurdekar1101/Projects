@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(249, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#head-main{
+    font-family: 'Poppins';
+    font-size: 2.5em;
+    color: hsl(212, 6%, 44%);
+    margin: 0px;
+    text-align: center;
+}
+#head-title{
+    font-family: 'Poppins';
+    font-size: 2.5em;
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+    text-align: center;
+}
+#head-description{
+    font-family: 'Poppins';
+    font-size: 1em;
+    color: hsl(212, 6%, 44%);
+    margin: 20px 0px 0px 0px;
+    width: 60%;
+    text-align: center;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    width: auto;
+}
+.card h3{
+    font-family: 'Poppins';
+    font-size: 1.5em;
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+}
+.card p{
+    font-family: 'Poppins';
+    font-size: 1em;
+    color: hsl(212, 6%, 44%);
+    margin: 10px 0px 10px 0px; 
+
+}
+.icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.supervisor{
+    grid-column: 1;
+    grid-row: 2;
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+ 
+.team{
+    grid-column: 2;
+    grid-row: 1;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    transform: translateY(50%);
+}
+
+.karma{
+    grid-column: 2;
+    grid-row: 3;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    transform: translateY(-50%);
+}
+
+.calculator{
+    grid-column: 3;
+    grid-row: 2;
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+@media(max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team{
+    transform: translateY(0%);
+}
+
+.karma{
+    transform: translateY(0%);
+}
+.heading-container{
+    margin-bottom: 20px;
+}
+.card{
+    width: 90%;
+}
+#head-description, #head-title, #head-main{
+    width: 90%;
+}
+
+
+}
